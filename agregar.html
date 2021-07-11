@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir super</title>
+    <link rel="stylesheet" href="css/agregar.css">
+</head>
+<body>
+    <header>
+        <section class="header--seccion-uno">
+            <p>20% de descuento en todos los productos!</p> 
+        </section>
+        <section class="header--seccion-dos">
+            <div>
+                <img src="img/object.png" alt="">
+                <span>Nombre Tienda</span>
+            </div>
+            <a href="index.html"><button class="volver-home">Volver al home</button></a>
+        </section>
+    </header>
+      <main>
+          <div class="form-container">
+            <h1>Añadí tu super!</h1>
+            <span>Agregá tu personaje favorito completando las opciones.</span>
+            <form action="#" method="POST">
+                <div class="contenedor-name">
+                    <div>
+                        <p>*Nombre</p>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <div>
+                        <p>*Especie</p>
+                        <select name="especie">
+                            <option value="especie">Especie</option>
+                            <option value="humano">Humano</option>
+                            <option value="kriptonanio">Kriptonanio</option>
+                            <option value="marcianos">Marcianos</option>
+                            <option value="titan">Titanes</option>
+                            <option value=""></option>
+                         </select>
+                    </div>
+                </div>
+                <div class="contenedor-name">
+                    <div>
+                        <p>Fecha</p> 
+                        <input type="date" name="fecha">
+                    </div>
+                    <div class="input-archivo">
+                        <p>Agregar Foto</p>
+                        <input type="file" name="file" id="file" accept=".jpg, png, .svg">
+                    </div>
+                </div>
+                <div class="contenedor-check">
+                    <div>
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </div>
+                    <div>
+                        <p>Poderes</p>
+                        <div class="checkbox">
+                            <p><input type="checkbox" checked="checked"> Volar </p>
+                            <p><input type="checkbox"> SuperInteligencia </p>
+                            <p><input type="checkbox"> Vista de rayo láser </p>
+                            <p><input type="checkbox"> Billetera gorda </p>
+                            <hr>
+                        </div>
+                        <div>
+                            <p>Tipo de personaje</p>
+                            <p><input type="radio" id="radio" name="rb1" value="radiobutton">Héroe / Heroina</p>
+                            <p><input type="radio" id="radio2" name="rb1" value="radiobutton">Villano / Villana</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Añadir</button>
+            </form>
+          </div>
+          
+      </main>
+      <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

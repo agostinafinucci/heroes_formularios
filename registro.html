@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <header>
+        <section class="header--seccion-uno">
+            <p>20% de descuento en todos los productos!</p> 
+        </section>
+        <section class="header--seccion-dos">
+            <div>
+                <img src="img/object.png" alt="">
+                <span>Nombre Tienda</span>
+            </div>
+            <a href="index.html"><button class="volver-home">Volver al home</button></a>
+        </section>
+    </header>
+    <main>
+        <div class="main-container">
+            <h1>Registro</h1>
+            <form action="#" method="POST">
+                <p>
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+                </p>
+                <p>
+                    <input type="email" name="correo-electronico" placeholder="Correo Electronico" required>
+                </p>
+                <p>
+                <p>
+                    <input type="password" name="contraseña" placeholder="Contraseña" required>
+                </p>
+                <p> 
+                    <input list="lista-paises" placeholder="País">
+                    <datalist id="lista-paises">
+                        <option value="Arg">Argentina</option>
+                        <option value="Col"> Colombia</option>
+                        <option value="Bra"> Brasil</option>
+                        <option value="Chi"> Chile</option>
+                        <option value="Par"> Paraguay</option>
+                        <option value="Per"> Peru</option>
+                        <option value="Uru"> Uruguay</option>
+                    </datalist>
+                </p>
+                <p class="reset-intro">
+                    <button class="reset" type="reset">Resetear</button>
+                    <button type="submit">Entrar</button>
+                </p>
+                <p class="enlace">
+                    <span>¿Ya tenés una cuenta?</span><a href="login.html"> Ingresá</a>
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
