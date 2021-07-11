@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos del header  */
+.header--seccion-uno {
+    background-color: #1CD1B0;
+}
+.header--seccion-uno p {
+    font-size: 15px;
+    padding: 12px;
+}
+.header--seccion-dos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 4px 1px rgba(0, 100, 158, 0.37);
+    background-color: #00669F;
+    color: #fff;
+}
+.header--seccion-dos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header--seccion-dos img {
+    width: 99px;
+    height: 74px;
+    margin: 10px;
+}
+.header--seccion-dos span {
+    font-size: 30px;
+    margin: 20px;
+}
+.volver-home { 
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.37);
+    background-color: #00669F;
+    color: #fff;
+    border: 3px solid #000;
+    width: 100px;
+    font-size: 12px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 30px;
+}
+/* estilos del main */
+.form-container {
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #00669F;
+    width: 954px;
+    height: 832px;
+    border-radius: 50px;
+}
+h1 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    padding: 20px 0px 0px 0px;
+}
+.contenedor-name {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-name p {
+    text-align: left;
+    margin: 12px 0 0 15px;
+}
+p {
+    text-align: left;
+    margin: 12px 0 0 15px;
+}
+select {
+    width: 343px;
+    height: 63px;
+    border-radius: 20px;
+    margin: 12px;
+}
+.contenedor-name input {
+    width: 342px;
+    height: 63px;
+    border-radius: 20px;
+    margin: 12px;
+} 
+.input-archivo input{
+    border-radius: 3px;
+    color: black;
+    margin-top: 30px;
+}
+input:hover {
+    background-color: #CECECE;
+}
+textarea:hover{
+    color: blue;
+    text-align: center;
+}
+#radio {
+    width: 24px;
+    height: 20px;
+}
+#radio2 {
+    width: 24px;
+    height: 20px;
+}
+button:hover{
+    background-color: #CECECE;
+}
+textarea {
+    width: 343px;
+    height: 307px;
+}
+.contenedor-check {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.contenedor-check p {
+    margin: 0px 0 10px 30px;
+}
+.checkbox input {
+    width: 24px;
+    height: 20px;
+}
+hr {
+    width: 343px;
+    margin: 30px 0 30px 26px;
+}
+button {
+    margin-left: 9px;
+    background-color: #1CD1B0;
+    width: 466px;
+    height: 87px;
+    border-radius: 23px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* estilos del footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    color: #fff;
+    height: 60px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 12px;
+}
